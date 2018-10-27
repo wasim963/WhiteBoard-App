@@ -43,7 +43,7 @@ $(function () {
         if (isDrawing) {
             //drawline
             // draw(currentPos.x, currentPos.y, event.clientX, event.clientY)
-            socket.emit('send_line', {x1: currentPos.x, y1: currentPos.y, x2: event.clientX, y2: event.clientY})
+            socket.emit('send_line', {x1: currentPos.x, y1: currentPos.y, x2: event.clientX, y2: event.clientY});
             currentPos.x = event.clientX;
             currentPos.y = event.clientY;
 

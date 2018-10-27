@@ -1,4 +1,3 @@
-//https://polar-beach-13588.herokuapp.com/
 const express = require('express');
 const srv = express();
 const SERVER_PORT = process.env.PORT || 2345;
